@@ -10,13 +10,12 @@
         android:id="@+id/mat_eingabe"
         android:layout_width="166dp"
         android:layout_height="45dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="208dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/mat_eingabe_hint"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="104dp"
+        android:onClick="sendToServer"
         android:text="@string/send_button"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,4 +41,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/server_antwort"
+        android:layout_width="334dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/server_antwort"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mat_eingabe" />
 </androidx.constraintlayout.widget.ConstraintLayout>
