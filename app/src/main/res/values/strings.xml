@@ -5,6 +5,7 @@
     <string name="send_button">Abschicken</string>
     <string name="mat_eingabe_hint">hier&#8230;</string>
     <string name="server_antwort">Server Antwort</string>
+    <string name="calc_button">Calc 2.2</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
